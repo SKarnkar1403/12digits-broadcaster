@@ -29,7 +29,8 @@ def clean_and_chunk_text(input_file, words_per_chunk=150):
 
 if __name__ == "__main__":
     # Placeholder file for testing
-    notes_filename = "raw_notes.txt"
+    notes_filename = "chanakya_protocol.txt"
+
     
     # Create a dummy file if it doesn't exist yet
     if not os.path.exists(notes_filename):
